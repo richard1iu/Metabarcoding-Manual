@@ -11,3 +11,10 @@
 - LEfSe
 - Stamp
 - Random forestry
+
+
+## Similarity of group
+- ANOSIM
+- PERMANOVA
+- Amova
+- MRPP
