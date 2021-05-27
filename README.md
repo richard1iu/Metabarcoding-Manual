@@ -18,3 +18,7 @@
 - PERMANOVA
 - Amova
 - MRPP
+
+## Significant factors
+- envfit （vegan）
+- bioenv （vegan）
