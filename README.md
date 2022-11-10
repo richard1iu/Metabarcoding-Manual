@@ -7,7 +7,7 @@ R package: {base}/{WGCNA}
 `{WGCNA}` is much more rapid than R `{base}` package
 
 ### 2) SparCC (Sparse Correlations for Compositional data)
-R package: {SpiecEasi}  
+R package: [{SpiecEasi}](https://github.com/zdk123/SpiecEasi)  
 Pearson correlation of the **compositional data** can produce unreliable results since the observed data take the form of **relative fractions** of genes or species, rather than their absolute abundances.
 
 SparCC is design for estimating correlations from **compositional data** based on 
@@ -15,7 +15,7 @@ SparCC is design for estimating correlations from **compositional data** based o
 2. iterating to find the strongest correlated OTU pair
 
 ### 3) SPIEC-EASI (SParse InversE Covariance Estimation for Ecological Association Inference)
-R package: {SpiecEasi} https://github.com/zdk123/SpiecEasi  
+R package: [{SpiecEasi}](https://github.com/zdk123/SpiecEasi) 
 **Very slow** for SpiecEasi_method = ‘glasso’ for a large number of taxa.   
 It **infer** an underlying graphical model using the concept of **conditional independence** instead of correlation between taxa.  
 This package has two network construction approaches based on **graph model**：
