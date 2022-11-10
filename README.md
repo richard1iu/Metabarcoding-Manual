@@ -56,7 +56,8 @@ It is typically used in the microbial **time-series** data and thus the network 
 ## Diff ASV
 - LEfSe
 - Stamp
-- Random forestry
+- edgeR
+- machine learning
 
 
 ## Similarity of group
@@ -66,5 +67,7 @@ It is typically used in the microbial **time-series** data and thus the network 
 - MRPP
 
 ## Significant factors
-- envfit （vegan）
-- bioenv （vegan）
+- envfit {vegan}
+- bioenv {vegan}
+- machine learning
+- regression model
