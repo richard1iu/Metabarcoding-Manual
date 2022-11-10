@@ -53,6 +53,44 @@ It infer interaction network of **cross-sectional** datasets based on the **gene
 
 It is typically used in the microbial **time-series** data and thus the network is **directed**.  
 
+## 2. microbial community assembly methods
+
+### 1) Null model
+R package: [{microeco}](https://chiliubio.github.io/microeco/)  
+
+Infer the strength of **five ecological process** dominating the community assembly under the specific hypothesis (Stegen et al. 2013).
+
+based on **βNTI**(beta nearest taxon index) and **RCbray**(Bray-Curtis-based Raup-Crick).
+
+The approach for phylogenetic signal analysis is based on the mantel correlogram (Liu et al. 2017)
+
+### 2) binning
+R package: [{iCAMP}](https://github.com/DaliangNing/iCAMP1)  
+
+Infer community assembly mechanisms using phylogenetic **bin-based** null model analysis
+
+### 3) NST (normalized stochasticity ratio)
+R package: [{NST}](https://cran.r-project.org/web/packages/NST/index.html)  
+
+taxonomic and phylogenetic normalized stochasticity ratio
+
+### 4) NCM (neutral community model)
+
+
+### 5) SIMPER/Per-SIMPER
+R package: [{DNCImper}](https://github.com/Corentin-Gibert-Paleontology/DNCImper)  
+
+Based on similarity index, SIMPER estimate the contributions of taxa to the overall dissimilarity between groups of assemblages.  
+
+Per-SIMPER compare **empirical SIMPER plot** with **randomized plots** computed by matrix permutation of the empirical matrix.  
+
+The closer the random profile to the empirical one, the more niche and/or dispersal processes played a role in the assemblage construction.
+
+### 6) DNCI (Dispersal Niche Continuum Index)
+R package: [{DNCImper}](https://github.com/Corentin-Gibert-Paleontology/DNCImper)  
+
+DNCI transform the **qualitative results** into a **quantitative index** based on PerSIMPER function. 
+
 ## Diff ASV
 - LEfSe
 - Stamp
