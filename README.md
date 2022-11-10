@@ -1,5 +1,4 @@
-# AnalysisMethod_asv
-
+# Analysis Method
 
 ## Network analysis
 - MENA
@@ -7,7 +6,7 @@
 - R_igraph
 
 
-## Diff_ASV
+## Diff ASV
 - LEfSe
 - Stamp
 - Random forestry
