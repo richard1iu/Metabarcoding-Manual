@@ -3,11 +3,11 @@
 ## 1.Co-occurrence Network Analysis
 
 ### 1) spearman/pearson correlation
-R package: {base}/{WGCNA}
+R package: {base}/{WGCNA}  
 {WGCNA} is much more rapid than R {base} package
 
 ### 2) SparCC (Sparse Correlations for Compositional data)
-R package: {SpiecEasi}
+R package: {SpiecEasi}  
 Pearson correlation of the **compositional data** can produce unreliable results since the observed data take the form of **relative fractions** of genes or species, rather than their absolute abundances.
 SparCC is design for estimating correlations from **compositional data** based on 
 1. the log-ratio transformation
