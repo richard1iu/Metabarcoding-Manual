@@ -4,7 +4,7 @@
 
 ### 1) spearman/pearson correlation
 R package: {base}/{WGCNA}  
-{WGCNA} is much more rapid than R {base} package
+>{WGCNA} is much more rapid than R >{base} package
 
 ### 2) SparCC (Sparse Correlations for Compositional data)
 R package: {SpiecEasi}  
