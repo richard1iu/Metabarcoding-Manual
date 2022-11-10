@@ -8,6 +8,7 @@ R package: {base}/{WGCNA}
 
 ### 2) SparCC (Sparse Correlations for Compositional data)
 R package: [{SpiecEasi}](https://github.com/zdk123/SpiecEasi)  
+
 Pearson correlation of the **compositional data** can produce unreliable results since the observed data take the form of **relative fractions** of genes or species, rather than their absolute abundances.
 
 SparCC is design for estimating correlations from **compositional data** based on 
@@ -36,8 +37,11 @@ This approach is remarkable in that the **correlation threshold** between paired
 R package: [{FlashWeave}](https://github.com/meringlab/FlashWeave.jl)  
 
 a **julia** package. (relative diffcult to install)  
+
 It is a **probabilistic graph-based method** to obtain the conditional independence.  
-It **predicts** direct relationships among taxa based on compositional abundance data (OTU table) through statistical co-occurrence.   
+
+It **predicts** direct relationships among taxa based on compositional abundance data (OTU table) through statistical co-occurrence.  
+
 **prerequisite:**
 1. install julia language in your computer and add the julia in the computer path
 2. install {FlashWeave} R package.
