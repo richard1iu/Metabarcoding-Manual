@@ -53,6 +53,16 @@ It infer interaction network of **cross-sectional** datasets based on the **gene
 
 It is typically used in the microbial **time-series** data and thus the network is **directed**.  
 
+### 7) LSA (local similarity analysis)
+
+Python script: [ELSA](https://bitbucket.org/charade/elsa/src/master/)
+
+The analysis is only carried out for the time gradient samples such as growth, season, and treatment cycle.
+
+1. Based on the absolute abundance table of species, F-function transformation is carried out first to distinguish the data characteristics of biological duplication and time gradient. 
+2. Then calculate the LSA score between species in combination with time gradient and Pearson correlation, and take the value [- 1,1]. 
+3. Then conduct the replacement test to calculate the P value, and finally output the significantly correlated data used to draw the network diagram.
+
 ## 2. microbial community assembly methods
 
 ### 1) Null model
