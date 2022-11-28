@@ -132,7 +132,7 @@ It is necessary to adopt a consensus preprocess approach to help ensure robust b
 - MRPP
 
 ## Significant factors
-- envfit {vegan}
-- bioenv {vegan}
+- envfit; R package `{vegan}`
+- bioenv; R package `{vegan}`
 - machine learning
 - regression model
