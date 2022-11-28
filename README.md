@@ -2,7 +2,7 @@
 
 ## 1.Co-occurrence Network Analysis
 
-### 1) spearman/pearson correlation
+### 1) Spearman/pearson correlation
 R package: `{base}` | `{WGCNA}`  
 `{WGCNA}` is much more rapid than R `{base}` package
 
