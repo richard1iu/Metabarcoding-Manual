@@ -3,7 +3,7 @@
 ## 1.Co-occurrence Network Analysis
 
 ### 1) spearman/pearson correlation
-R package: {base}/{WGCNA}  
+R package: `{base}` | `{WGCNA}`  
 `{WGCNA}` is much more rapid than R `{base}` package
 
 ### 2) SparCC (Sparse Correlations for Compositional data)
@@ -63,7 +63,7 @@ The analysis is only carried out for the time gradient samples such as growth, s
 2. Then calculate the LSA score between species in combination with time gradient and Pearson correlation, and take the value [- 1,1]. 
 3. Then conduct the replacement test to calculate the P value, and finally output the significantly correlated data used to draw the network diagram.
 
-## 2. microbial community assembly methods
+## 2. Microbial community assembly methods
 
 ### 1) Null model
 R package: [{microeco}](https://chiliubio.github.io/microeco/)  
@@ -111,7 +111,7 @@ It is necessary to adopt a consensus preprocess approach to help ensure robust b
 - UQ: Upper-Quartile
 - TSS: Total Sum Normalization
 - CSS: Cumulative Sum Scaling
-### differential abundance test
+### Differential abundance test
 - LEfSe
 - Stamp
 - edgeR
