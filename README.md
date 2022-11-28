@@ -107,10 +107,12 @@ It is necessary to adopt a consensus preprocess approach to help ensure robust b
 
 ### Normalization
 - TMM: The weighted Trimmed Mean of M-values
-- RLE: Relative Log Expression
-- UQ: Upper-Quartile
-- TSS: Total Sum Normalization
-- CSS: Cumulative Sum Scaling
+- RLE: Relative Log Expression; R package `{DESeq}` or `{edgeR}`
+- UQ: Upper-Quartile; R package `{DESeq}` or `{edgeR}`
+- TSS: Total Sum Normalization; R package `{hilldiv}`
+- CSS: Cumulative Sum Scaling; R package `{metagenomeSeq}`
+- VST: Variance Stabilizing Transformation; R package `{DESeq}`
+- CLR: Centered Log-Ratio; R package `{ALDEx2}`
 ### Differential abundance test
 - LEfSe
 - Stamp
