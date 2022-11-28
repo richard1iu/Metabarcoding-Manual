@@ -102,10 +102,11 @@ R package: [{DNCImper}](https://github.com/Corentin-Gibert-Paleontology/DNCImper
 DNCI transform the **qualitative results** into a **quantitative index** based on PerSIMPER function. 
 
 ## Diff ASV
+>A paper published in nature communitication compared 14 different differential abundance method [Microbiome differential abundance methods produce different results across 38 datasets](https://www.nature.com/articles/s41467-022-28034-z)
 - LEfSe
 - Stamp
 - edgeR
-- machine learning
+- Machine learning
 
 
 ## Similarity of group
