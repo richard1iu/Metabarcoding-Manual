@@ -102,10 +102,16 @@ R package: [{DNCImper}](https://github.com/Corentin-Gibert-Paleontology/DNCImper
 DNCI transform the **qualitative results** into a **quantitative index** based on PerSIMPER function. 
 
 ## Diff ASV
->A paper published in nature communitication compared 14 different differential abundance method [Microbiome differential abundance methods produce different results across 38 datasets](https://www.nature.com/articles/s41467-022-28034-z)
+>A [paper](https://www.nature.com/articles/s41467-022-28034-z) published in nature communitication compared the performance of 14 different differential abundance testing method on 38 16S rRNA gene datasets. They found `ALDEx2` and `ANCOM-II` produce the most consistent results across studies and agree best with the intersect of results from different approaches. 
+It is necessary to adopt a consensus preprocess approach to help ensure robust biological interpretations.
+
 - LEfSe
 - Stamp
 - edgeR
+- DESeq2
+- limma voom 
+- ALDEx2
+- ANCOM-II
 - Machine learning
 
 
