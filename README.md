@@ -105,6 +105,13 @@ DNCI transform the **qualitative results** into a **quantitative index** based o
 >A [paper](https://www.nature.com/articles/s41467-022-28034-z) published in nature communitication compared the performance of 14 different differential abundance testing method on 38 16S rRNA gene datasets. They found `ALDEx2` and `ANCOM-II` produce the most consistent results across studies and agree best with the intersect of results from different approaches. 
 It is necessary to adopt a consensus preprocess approach to help ensure robust biological interpretations.
 
+### Normalization
+- TMM: The weighted Trimmed Mean of M-values
+- RLE: Relative Log Expression
+- UQ: Upper-Quartile
+- TSS: Total Sum Normalization
+- CSS: Cumulative Sum Scaling
+### differential abundance test
 - LEfSe
 - Stamp
 - edgeR
@@ -112,6 +119,7 @@ It is necessary to adopt a consensus preprocess approach to help ensure robust b
 - limma voom 
 - ALDEx2
 - ANCOM-II
+- metagenomeSeq
 - Machine learning
 
 
