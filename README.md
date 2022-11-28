@@ -1,4 +1,4 @@
-# Microbiome Analysis Advanced Method
+# Microbiome Advanced Analysis Methods
 
 ## 1.Co-occurrence Network Analysis
 
