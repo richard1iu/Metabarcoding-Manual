@@ -101,7 +101,7 @@ R package: [{DNCImper}](https://github.com/Corentin-Gibert-Paleontology/DNCImper
 
 DNCI transform the **qualitative results** into a **quantitative index** based on PerSIMPER function. 
 
-## Diff ASV
+## 3.Diff ASV
 >A [paper](https://www.nature.com/articles/s41467-022-28034-z) published in nature communitication compared the performance of 14 different differential abundance testing method on 38 16S rRNA gene datasets. They found `ALDEx2` and `ANCOM-II` produce the most consistent results across studies and agree best with the intersect of results from different approaches. 
 It is necessary to adopt a consensus preprocess approach to help ensure robust biological interpretations.
 
@@ -125,14 +125,22 @@ It is necessary to adopt a consensus preprocess approach to help ensure robust b
 - Machine learning
 
 
-## Similarity of group
+## 4.Similarity of group
 - ANOSIM
 - PERMANOVA
 - Amova
 - MRPP
 
-## Significant factors
+## 5.Significant factors
 - envfit; R package `{vegan}`
 - bioenv; R package `{vegan}`
 - machine learning
 - regression model
+
+## 6.Niche width
+- Levins’ and Shannon-Wiener niche breadth index; R package `{spaa}`
+- distinguish generalist和specialist; R package `{EcolUtils}`
+
+## 7.indicator taxa
+- Threshold Indicator Taxa ANalysisl; R package `{TITAN2}`
+- ;R package  {indicspecies}
